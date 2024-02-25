@@ -2,11 +2,10 @@
 #define SAUCETESTER
 
 #include <iostream>
-#include <string>
 
 using namespace std;
 
-class Sauce {
+template <typename T> class Sauce {
 private:
   int tests;
   int successes;
@@ -14,7 +13,7 @@ private:
 public:
   Sauce() : tests(0), successes(0) {}
 
-  void test(string result, string expected) {
+  void test(T result, T expected) {
     tests++;
 
     cout << "Sauce test #" << tests << endl;
