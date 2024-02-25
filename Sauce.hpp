@@ -1,3 +1,6 @@
+// danslasauce by Ghali Omar Boutaib <ghaliomar@usf.edu>
+// A simple C++ testing library.
+
 #ifndef SAUCETESTER
 #define SAUCETESTER
 
